@@ -1,0 +1,8 @@
+CREATE DATABASE `zakappDB`
+
+CREATE TABLE `tbl_autotitle` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `autoId` varchar(45) DEFAULT NULL,
+  `options` varchar(2000) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+);
