@@ -12,7 +12,7 @@ router.get('/', function(req, res, next) {
       });
     }
     res.status(201).json({
-      message: "User details",
+      message: "Auto title details",
       result: result
     });
   })
